@@ -1,0 +1,3 @@
+{"a": 0.2, "b": 0.3, "c": 0.5, "device": "A", "id": "c1", "pressure": 2, "temperature": 80}
+{"a": 0.4, "b": 0.3, "c": 0.3, "device": "A", "id": "c2", "pressure": 2, "temperature": 90}
+{"a": 0.2, "b": 0.3, "c": 0.5, "device": "B", "id": "c3", "pressure": 3, "temperature": 80}

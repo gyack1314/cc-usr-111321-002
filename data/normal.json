@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "tables": {
+    "candidates": {
+      "file": "normal-candidates.jsonl",
+      "sha256": "4904398df6e5abacf61afa107e6d5ecc14d0be32823fd61cd026349c1b5f4867",
+      "bytes": 276,
+      "rows": 3,
+      "fields": [
+        "id",
+        "temperature",
+        "pressure",
+        "a",
+        "b",
+        "c",
+        "device"
+      ]
+    },
+    "history": {
+      "file": "normal-history.jsonl",
+      "sha256": "f18199425efc82b61793a131181e1834b1f21a00c57946e5e83b9a82b0fe7c1d",
+      "bytes": 152,
+      "rows": 2,
+      "fields": [
+        "id",
+        "candidate",
+        "day",
+        "response",
+        "failed"
+      ]
+    },
+    "budget": {
+      "file": "normal-budget.jsonl",
+      "sha256": "e01d53171f0c3a19860db9a76d5a5b907a87c1ace2d5609b890ac833fe268589",
+      "bytes": 63,
+      "rows": 1,
+      "fields": [
+        "id",
+        "days",
+        "runs_per_day",
+        "max_repeats"
+      ]
+    },
+    "variance_scenarios": {
+      "file": "normal-variance_scenarios.jsonl",
+      "sha256": "37227974649781f805667cad729ae47338dbebc28210daf28aa25ec515630ae1",
+      "bytes": 107,
+      "rows": 2,
+      "fields": [
+        "id",
+        "whole_plot",
+        "within_plot"
+      ]
+    }
+  }
+}
